@@ -1,0 +1,18 @@
+{
+  "name": "Rickify",
+  "description": "Convert all images to rickroll",
+  "author": "Omer Bhatti",
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  "browser_action": {
+    "default_title":"Hide it"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
