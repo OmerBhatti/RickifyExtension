@@ -3,11 +3,7 @@
   "description": "Convert all images to rickroll",
   "author": "Omer Bhatti",
   "version": "0.0.1",
-  "manifest_version": 2,
-
-  "browser_action": {
-    "default_title":"Rickify"
-  },
+  "manifest_version": 3,
 
   "content_scripts": [
     {
